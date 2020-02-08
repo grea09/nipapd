@@ -1,4 +1,4 @@
 FROM nipap/nipapd:master
 
-RUN pip --no-cache-dir --no-input -U install python-ldap
+RUN pip --no-cache-dir --no-input install python-ldap
 
